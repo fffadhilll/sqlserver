@@ -1,3 +1,7 @@
+use belajar;
+exec sp_help orders;
+exec sp_belajar orders;
+
 select top 1 * from order_details;
 select top 1 * from orders;
 select top 1 * from products;
